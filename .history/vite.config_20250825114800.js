@@ -13,12 +13,6 @@ export default defineConfig({
       iconDirs: [path.resolve(process.cwd(), 'src/icons/svg')],
       // 指定 symbolId 格式
       symbolId: 'icon-[dir]-[name]',
-        svgoOptions: {
-        plugins: [
-          // 移除 SVG 中的 fill 属性，便于通过 CSS 控制颜色
-          { name: 'removeAttrs', params: { attrs: 'fill' } }
-        ]
-      }
     })
   ],
   server: {
@@ -31,17 +25,6 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src'),
-    },
-  },
-   css: {
-    preprocessorOptions: {
-      scss: {
-        // 全局导入 Sass 内置模块，解决 Element Plus 样式依赖
-        additionalData: `
-          @use 'sass:color';
-          @use 'sass:math';
-        `,
-      },
     },
   },
 });

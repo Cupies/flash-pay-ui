@@ -33,15 +33,4 @@ export default defineConfig({
       '@': resolve(__dirname, 'src'),
     },
   },
-   css: {
-    preprocessorOptions: {
-      scss: {
-        // 全局导入 Sass 内置模块，解决 Element Plus 样式依赖
-        additionalData: `
-          @use 'sass:color';
-          @use 'sass:math';
-        `,
-      },
-    },
-  },
 });

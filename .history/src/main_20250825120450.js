@@ -15,6 +15,7 @@ import '@/permission'
 import '@/filter'
 import '@/directive'
 import directive from '@/directive' 
+import { appStore } from '@/store/modules/app'
 
 const app = createApp(App)
 const pinia = createPinia()

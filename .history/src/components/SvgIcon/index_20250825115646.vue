@@ -1,10 +1,6 @@
 <template>
-  <svg :class="svgClass"
-        aria-hidden="true"
-        :width="width" 
-        :height="height"
-  >
-   <use :xlink:href="symbolId" />
+  <svg :class="svgClass">
+    //<use :href="iconName" />
   </svg>
 </template>
 
@@ -27,10 +23,12 @@ const iconName = computed(() => {
 })
 
 const svgClass = computed(() => {
-  return props.className 
-    ? `svg-icon ${props.className}` 
-    : 'svg-icon';
-});
+  if (props.className) {
+    return 'svg-icon ' + props.className
+  } else {
+    return 'svg-icon'
+  }
+})
 
 </script>
 

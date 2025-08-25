@@ -1,4 +1,6 @@
 /* Element Variables */
+@use 'sass:color';
+@use 'sass:math';
 // 覆盖 Element Plus 变量
 $--el-color-primary: #1890ff;
 $--el-color-success: #13ce66;

@@ -1,4 +1,6 @@
 /* Element Variables */
+
+
 // 覆盖 Element Plus 变量
 $--el-color-primary: #1890ff;
 $--el-color-success: #13ce66;
@@ -12,8 +14,7 @@ $--el-border-color-lighter: #e6ebf5;
 $--el-table-border: 1px solid #dfe6ec;
 
 // Icon font path, required
-$--font-path: 'element-ui/lib/theme-chalk/fonts';
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
 
 // 引入 Element Plus 样式
-// 替换原来的第18行
-@use 'element-plus/theme-chalk/src/index';
+@uds '~element-plus/theme-chalk/src/index';

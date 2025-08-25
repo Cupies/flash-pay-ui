@@ -570,7 +570,7 @@ export default defineComponent({
     font-size: 16px;
     color: $darkGray;
     cursor: pointer;
-    user-select: none;
+    userStore-select: none;
   }
 }
 </style>

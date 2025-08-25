@@ -6,6 +6,7 @@
     clear: both;
   }
 }
+@use '../styles/mixins' as *;
 .xxx {
   @include clearfix;
 }

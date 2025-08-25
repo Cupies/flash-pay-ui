@@ -14,7 +14,7 @@ import router from '@/router'
 import '@/permission'
 import '@/filter'
 import '@/directive'
-import directive from '@/directive' 
+import directive from '@/directive' // directive 默认导出 install
 
 const app = createApp(App)
 const pinia = createPinia()

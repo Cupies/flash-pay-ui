@@ -27,10 +27,12 @@ const iconName = computed(() => {
 })
 
 const svgClass = computed(() => {
-  return props.className 
-    ? `svg-icon ${props.className}` 
-    : 'svg-icon';
-});
+  if (props.className) {
+    return 'svg-icon ' + props.className
+  } else {
+    return 'svg-icon'
+  }
+})
 
 </script>
 

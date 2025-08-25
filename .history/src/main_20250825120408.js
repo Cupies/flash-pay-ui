@@ -11,10 +11,10 @@ import 'virtual:svg-icons-register'
 
 import App from '@/App.vue'
 import router from '@/router'
+
 import '@/permission'
 import '@/filter'
 import '@/directive'
-import directive from '@/directive' 
 
 const app = createApp(App)
 const pinia = createPinia()

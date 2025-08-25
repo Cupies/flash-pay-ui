@@ -135,6 +135,7 @@ export default defineComponent({
 
 <style lang="scss">
 @use '@/styles/_variables.scss' as *;
+
 .el-submenu.is-active > .el-submenu__title {
   color: $subMenuActiveText !important;
 }
