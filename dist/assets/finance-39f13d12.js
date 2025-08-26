@@ -1,0 +1,1 @@
+import{D as e,i as n}from"./index-dd519aa6.js";const s=t=>e({url:`/merchant/upload?tenantId=${n.tenantId}`,method:"post",data:t}),o=t=>e({url:`/merchant/my/merchants/save?tenantId=${n.tenantId}`,method:"post",data:t}),r=()=>e({url:`/merchant/my/merchants?tenantId=${n.tenantId}`,method:"get"});export{r as g,o as s,s as u};

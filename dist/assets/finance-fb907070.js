@@ -1,1 +1,0 @@
-import{A as e,g as n}from"./index-c4ccb8e7.js";const s=t=>e({url:`/merchant/upload?tenantId=${n.tenantId}`,method:"post",data:t}),o=t=>e({url:`/merchant/my/merchants/save?tenantId=${n.tenantId}`,method:"post",data:t}),r=()=>e({url:`/merchant/my/merchants?tenantId=${n.tenantId}`,method:"get"});export{r as g,o as s,s as u};

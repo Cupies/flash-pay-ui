@@ -167,7 +167,7 @@ export default defineComponent({
 </script>
 
 <style lang="scss">
-// References: https://www.zhangxinxu.com/wordpress/2018/01/css-caret-color-first-line/
+
 @use '../../styles/variables.scss' as *;
 
 .login-container {
