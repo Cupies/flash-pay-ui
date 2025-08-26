@@ -126,6 +126,7 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 
+@use '@/styles/mixins' as *;
 
 .box-container {
   width: 100%;

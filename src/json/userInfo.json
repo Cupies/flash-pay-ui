@@ -1,7 +1,7 @@
 {
   "code": 20000,
   "data": {
-    "userStore": {
+    "user": {
       "id": 0,
       "username": "admin",
       "password": "any",
