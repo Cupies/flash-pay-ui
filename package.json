@@ -10,6 +10,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
     "@heroicons/vue": "^2.2.0",
     "@iconify/vue": "^5.0.0",
     "axios": "^1.11.0",
@@ -21,6 +22,7 @@
     "path-to-regexp": "^8.2.0",
     "pinia": "^3.0.3",
     "qrcode-decoder": "^0.3.4",
+    "register-service-worker": "^1.7.2",
     "vue": "^3.0.0",
     "vue-facing-decorator": "^4.0.1",
     "vue-router": "^4.4.0"
