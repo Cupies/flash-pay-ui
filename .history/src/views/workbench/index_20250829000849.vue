@@ -218,8 +218,8 @@ html, body {
             top: 100%;
             bottom: -50px;
             transform: translateX(-50%) translateY(-150px);
-            width: 800px;
-            height: auto;
+            width: 600px;
+            height: 145px;
             display: flex;
             align-items: center;
             gap: 31px; 
@@ -227,7 +227,6 @@ html, body {
             border-radius: 12px;
             padding: 0 30px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-            margin-bottom: 16px;
             .avatar {
                 width: 100px;
                 height: 100px;
@@ -237,20 +236,17 @@ html, body {
             }
 
             .info-content {
-                color: #fffdfd !important;
-                flex-grow: 1;
+                color: #333 !important;
 
                 .user-name {
-                    color: #1d43ee !important;
                     font-size: 24px;
                     margin-bottom: 12px;
                     font-weight: 500;
                 }
 
                 .user-mobile {
-                    color: #000000 !important;
                     font-size: 16px;
-                    margin-bottom: 16px;
+                    margin-bottom: 24px;
                     opacity: 0.8;
                 }
 
@@ -266,7 +262,7 @@ html, body {
 
                     // 按钮样式统一化
                     .btn-renew, .btn-upgrade {
-                        width: 80px;
+                        width: 84px;
                         height: 36px;
                         border-radius: 18px;
                         border: none;

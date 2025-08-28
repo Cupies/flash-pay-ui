@@ -64,7 +64,7 @@ export default defineComponent({
     const username = ref('')
     
     // 获取store实例
-    const appStoreInstance = useAppStore()
+    const appStoreInstance = appStore()
     const userStoreInstance = userStore()
     
     onMounted(() => {

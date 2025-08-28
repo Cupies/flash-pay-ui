@@ -61,11 +61,7 @@ const whiteList = ['/login','/operationLogin']
 //     }
 //   }
 // })
-router.beforeEach(async(to, _, next) => {
-  // 临时跳过所有权限验证，直接放行
-  next()
-  return
-})
+
 router.afterEach((to) => {
   // Finish progress bar
   NProgress.done()

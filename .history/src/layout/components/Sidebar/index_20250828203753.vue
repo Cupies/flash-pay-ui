@@ -20,7 +20,7 @@
 
 <script setup>
 import { computed } from 'vue'
-import { useAppStore } from '@/store/modules/app'
+import { appStore } from '@/store/modules/app'
 import { permissionStore } from '@/store/modules/permission'
 import SidebarItem from './SidebarItem.vue'
 import variables from '@/styles/variables.scss?inline'

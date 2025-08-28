@@ -227,7 +227,6 @@ html, body {
             border-radius: 12px;
             padding: 0 30px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-            margin-bottom: 16px;
             .avatar {
                 width: 100px;
                 height: 100px;
@@ -248,9 +247,9 @@ html, body {
                 }
 
                 .user-mobile {
-                    color: #000000 !important;
+                    color: #080808 !important;
                     font-size: 16px;
-                    margin-bottom: 16px;
+                    margin-bottom: 24px;
                     opacity: 0.8;
                 }
 

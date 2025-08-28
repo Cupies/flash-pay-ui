@@ -248,9 +248,9 @@ html, body {
                 }
 
                 .user-mobile {
-                    color: #000000 !important;
+                    color: #080808 !important;
                     font-size: 16px;
-                    margin-bottom: 16px;
+                    margin-bottom: 24px;
                     opacity: 0.8;
                 }
 

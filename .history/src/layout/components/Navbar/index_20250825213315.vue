@@ -9,7 +9,7 @@
 </template>
 
 <script setup>
-import { useAppStore } from '@/store/modules/app'
+import { appStore } from '@/store/modules/app'
 import { userStore } from '@/store/modules/user'
 import Breadcrumb from '@/components/Breadcrumb/index.vue'
 

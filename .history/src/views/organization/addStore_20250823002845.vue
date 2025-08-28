@@ -32,7 +32,7 @@
 </template>
 
 <script>
-import { defineComponent, ref, onMounted, watch} from 'vue'
+import { defineComponent, ref, onMounted } from 'vue'
 import { ElMessage } from 'element-plus'
 import { createStore, getMemberData } from '@/api/organization'
 import { getAdminList } from '@/api/system'

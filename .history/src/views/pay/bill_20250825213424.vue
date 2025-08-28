@@ -58,6 +58,15 @@
     </el-table-column>
     </el-table>
 
+     
+
+    <!-- <pagination
+      v-show="total>0"
+      :total="total"
+      :page.sync="listQuery.pageIndex"
+      :limit.sync="listQuery.pageSize"
+      @pagination="getList"
+    /> -->
   </div>
 </template>
 

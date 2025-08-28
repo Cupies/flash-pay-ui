@@ -249,8 +249,10 @@ html, body {
 
                 .user-mobile {
                     color: #000000 !important;
+                    left: 0; // 水平方向左对齐
+                    top: 50%;
                     font-size: 16px;
-                    margin-bottom: 16px;
+                    margin-bottom: 24px;
                     opacity: 0.8;
                 }
 

@@ -1,6 +1,6 @@
 <template>
   <div class="data-container">
-      <h3>角色管理</h3>
+      <h3>门店管理</h3>
       <el-row type="flex" justify="end" class="add">
       <el-button type="primary" size="medium" @click="openSkuDialog" id="addBtn">新增</el-button>
     </el-row>

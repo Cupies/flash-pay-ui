@@ -215,11 +215,11 @@ html, body {
         .personalInfo {
             position: absolute;
             left: 50%;
-            top: 100%;
+            top: auto;
             bottom: -50px;
-            transform: translateX(-50%) translateY(-150px);
-            width: 800px;
-            height: auto;
+            transform: translate(-50%, -50%); // 垂直水平居中
+            width: 600px;
+            height: 145px;
             display: flex;
             align-items: center;
             gap: 31px; 
@@ -227,7 +227,7 @@ html, body {
             border-radius: 12px;
             padding: 0 30px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-            margin-bottom: 16px;
+            z-index: 2;
             .avatar {
                 width: 100px;
                 height: 100px;
@@ -237,20 +237,17 @@ html, body {
             }
 
             .info-content {
-                color: #fffdfd !important;
-                flex-grow: 1;
+                color: #333 !important;
 
                 .user-name {
-                    color: #1d43ee !important;
                     font-size: 24px;
                     margin-bottom: 12px;
                     font-weight: 500;
                 }
 
                 .user-mobile {
-                    color: #000000 !important;
                     font-size: 16px;
-                    margin-bottom: 16px;
+                    margin-bottom: 24px;
                     opacity: 0.8;
                 }
 
@@ -266,7 +263,7 @@ html, body {
 
                     // 按钮样式统一化
                     .btn-renew, .btn-upgrade {
-                        width: 80px;
+                        width: 84px;
                         height: 36px;
                         border-radius: 18px;
                         border: none;
@@ -305,9 +302,9 @@ html, body {
     .content {
         width: 1200px;
         margin: 0 auto;
-        margin-top: 70px; // 向上偏移，与顶部背景形成重叠，增强层次感
+        margin-top: -45px; // 向上偏移，与顶部背景形成重叠，增强层次感
         padding-bottom: 60px; // 底部留白，避免内容贴底
-        z-index: 2;
+
         // 交易数据卡片
         .deal-card {
             width: 100%;
@@ -317,7 +314,7 @@ html, body {
             padding: 30px 40px;
             box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05); // 增加轻微阴影，提升立体感
             margin-bottom: 24px;
-            padding-top: 40px;
+
             // 头部标题栏
             .deal-header {
                 display: flex;
@@ -539,7 +536,6 @@ html, body {
     .work-container .content {
         width: 90%;
         padding: 0 20px;
-        margin-top: 90px;
     }
 
     .work-container .bg .personalInfo {
@@ -547,7 +543,6 @@ html, body {
         flex-direction: column;
         height: auto;
         text-align: center;
-        bottom: -70px;
         top: 60%;
     }
 

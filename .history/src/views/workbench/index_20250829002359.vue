@@ -250,7 +250,7 @@ html, body {
                 .user-mobile {
                     color: #000000 !important;
                     font-size: 16px;
-                    margin-bottom: 16px;
+                    margin-bottom: 10px;
                     opacity: 0.8;
                 }
 

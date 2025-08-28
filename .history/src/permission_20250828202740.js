@@ -65,6 +65,8 @@ router.beforeEach(async(to, _, next) => {
   // 临时跳过所有权限验证，直接放行
   next()
   return
+  
+  // ... 保留原有的代码，但暂时不执行
 })
 router.afterEach((to) => {
   // Finish progress bar
